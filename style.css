@@ -1,1 +1,35 @@
-h1{color: red;}
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+body{font-family: Poppins;}
+header>div{padding: 0 25px;display: flex;justify-content: space-between;align-items: center;border-bottom: 1px solid lightgray;}
+nav{width: 600px;}
+nav ul{list-style: none;display: flex;justify-content: space-between;align-items: center;}
+nav a{text-decoration: none;color: black;}
+.blackheart{width: 20px;margin-right: 1rem;}
+.logo{width: 80px;margin-right: 1rem;}
+.magnifier{width: 15px;}
+.zeroconf{width: 80px;align-items: center;}
+.team{width: 70px;}
+.features{width: 80px;}
+.audit{width:80px}
+.buttons1{display: flex; gap: 20px;}
+.buttons1 a{padding:10px;text-decoration: none;color: black;border: 1px solid black;}
+form label{background-color: rgba(0,0,0,.05)}
+form input{width: 1000px;background-color: rgba(0, 0, 0, .05);border-style: none;}
+form button{background:  #fb3e44;}
+form{display:flex;}
+.header-div{padding: 0 25px;display: flex;justify-content: space-between;align-items: center;}
+#section1{display: flex;justify-content: space-evenly;flex-direction: column;align-items: center;height:600px;background-color: rgba(232,217,217,.3);padding: 50px;}
+#seeplans{background-color: #fb3b49;color:white;box-shadow:8px 8px 0 rgba(251,59,73,.2) ;padding: 20px 40px;}
+#joinforfree{padding: 20px 40px;color: black;background-color: white;}
+.buttons2{display: flex;gap: 20px;}
+.buttons2 a{padding: 0 25px;text-decoration: none;font-weight: bold;}
+#section2{display: flex;justify-content: center;flex-direction: column;align-items: center;height:500px;padding: 50px;}
+.font{margin: center;font-size: 1.5em;}
+.hexagon{width: 200px;margin: center;padding-bottom: 20px;}
+#section2 h2{background-color: rgba(255,204,53, .4);transform: skew(9deg,0deg);font-style: italic;font-size: 3em;}
+.hexagon-text{margin: center;font-size: 1.5em;}
+.difficult{display: flex;justify-content: space-between;flex-direction: row;padding: 50px;gap: 20px;}
+#section3 a{text-decoration: none;padding: 50px;}
+.create{box-shadow:8px 8px 0 rgba(128,83,35,.2); margin-left: 550px;display: flex;justify-content: center;align-items: center;width: 400px;height: 60px;color: white;background-color: black;}
+h3{color: #ED1C24;}
+h1{font-size: 5em;}
